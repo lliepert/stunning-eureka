@@ -1,5 +1,6 @@
 # stunning-eureka
 _University of Waterloo CS 486 F20 Team 35 Code Repository_
+_Contributors: @lliepert, @AvyayAgarwal, @hrak109_
 
 This repository contains the code used to predict the 2020 US Presidential Election result via sentiment analysis on Reddit submissions. It was submitted by Team 35 as part of the University of Waterloo's CS 486 F20 project.
 
