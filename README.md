@@ -6,7 +6,8 @@ This repository contains the code used to predict the 2020 US Presidential Elect
 
 ## Description
 
-This repo has two main components: a scraper program, and a Jupyter notebook containing the analysis and prediction. To reproduce, follow the included instructions to set up and run the scraper, then repeat the analysis and prediction using the notebook as a guide.
+This repo has two main components: a scraper program, and a Jupyter notebook containing the analysis and prediction. To reproduce, follow the included instructions to set up and run the scraper, then repeat the analysis and prediction using the notebook as a guide.  
+The scraping program was designed to be run locally. The resulting `.csv`s were then loaded into DataBricks, where the analysis and prediction took place. The included Jupyter notebook is a copy of the resulting notebook. 
 
 ## Scraper Setup and Usage
 
