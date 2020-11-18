@@ -19,6 +19,29 @@ _It is recommended to **add this directory to your `.gitignore`**, as the genera
     ```
     python scraper.py --subreddit politics --query trump --start-date 2016-09-01 --end-date 2016-11-01
     ```
-    Note you must be running Python 3.8+.
+    with your desired parameters.
     The scraper will create a new directory in `data/` tagged with the current time, and will save both `.csv` and `.pkl` copies of the data. Both incremental and a final master dataset are generated.
     Run `python scraper.py -h` for more information.
+
+## Environment Requirements
+
+Required Python Version: `Python 3.8+`
+
+Required Python Packages:
+```python
+# General Requirements
+pandas
+numpy
+
+# Scraper
+dotenv
+praw
+psaw
+
+# Analysis and Prediction
+pyspark
+matplotlib
+vaderSentiment
+textBlob
+sklearn
+```
